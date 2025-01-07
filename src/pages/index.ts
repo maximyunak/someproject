@@ -1,0 +1,10 @@
+export { NotFound } from './NotFoundPage';
+export { TaskPage } from './TaskPage';
+export { TaskListPage } from './TaskListPage';
+export { LoginPage, RegistrationPage } from './AuthorizationPage';
+export { CourseListPage } from './CourseListPage';
+export { CoursePage } from './CoursePage';
+export { HomePage } from './HomePage';
+export { NotificationsPage } from './NotificationsPage';
+export { ProfilePage } from './ProfilePage';
+export { CreateTaskPage } from './CreateTaskPage';

@@ -1,0 +1,27 @@
+.tasks {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 99;
+}
+
+.task {
+  background: #fff;
+  color: var(--acent-text);
+  padding: 20px 24px;
+  border-radius: 16px;
+
+  &__desc {
+    margin-top: 3px;
+    color: var(--add-text);
+    font-size: 13px;
+  }
+
+  &__answers {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}

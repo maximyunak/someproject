@@ -1,0 +1,48 @@
+// .tasks {
+//   margin-top: 20px;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 20px;
+//   z-index: 99;
+// }
+
+// .create-task {
+//   background: #fff;
+//   color: var(--acent-text);
+//   padding: 20px 24px;
+//   border-radius: 16px;
+
+//   &__desc {
+//     color: var(--add-text);
+//     font-size: 13px;
+//   }
+
+//   &__answers {
+//     margin-top: 5px;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 5px;
+//   }
+// }
+
+.task {
+  &__label {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+  }
+
+  &__checkbox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+}

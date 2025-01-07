@@ -1,0 +1,35 @@
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f8f1ff;
+  transition: all 0.3s ease-out;
+
+  &::placeholder {
+    color: #666666c3;
+    font-size: 13px;
+  }
+
+  &:focus {
+    background-color: #ede2f7;
+  }
+
+  &--error {
+    background-color: #fff1f1;
+    border: 1px solid #ff5757;
+  }
+}
+
+.input__error {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  color: #ff5757;
+  font-size: 12px;
+}

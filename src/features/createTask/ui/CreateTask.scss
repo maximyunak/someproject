@@ -1,0 +1,31 @@
+.createtask {
+  padding-bottom: 20px;
+  &__bg {
+    background: #fff;
+    color: var(--acent-text);
+    padding: 20px 24px;
+    border-radius: 16px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+  }
+  &__tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.w-full {
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+.button {
+  color: white;
+  padding: 10px 16px;
+  border-radius: 4px;
+  width: 100%;
+  background-color: var(--purple);
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    /* opacity: 0.9; */
+    background-color: var(--dark-purple);
+  }
+}
+
+.bg-light {
+  background-color: var(--dark-purple);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

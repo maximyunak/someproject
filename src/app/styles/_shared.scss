@@ -1,0 +1,10 @@
+.hover-opacity {
+  transition: opacity 0.3s ease;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.shadow {
+  box-shadow: 0px 50px 50px var(--purple);
+}
